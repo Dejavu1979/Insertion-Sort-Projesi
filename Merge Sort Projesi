@@ -9,4 +9,4 @@ Tam olarak parçalara ayırdığımız seriyi tekrar sıralayarak birleştiriyor
 İlk etapta ikili yapıyı sıralıyoruz: 16 ve 11, 21 ile 8 ve 12, 22
 İkinci olarak da üç sayıyı sıralı diziyoruz:11, 16, 21 ile 8, 12, 22
 Son olarak da her iki üçlü grubu sıralıyor ve işlemi bitiriyoruz: [16,21,11,8,12,22]
-Big-O gösterimi ise: n log (n)'den: 6 log (n) olur.
+Big-O gösterimi ise: O (nlogn)'den: O(6log6) olur.
