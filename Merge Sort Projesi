@@ -1,3 +1,12 @@
 [16,21,11,8,12,22] -> Merge Sort
 Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 Big-O gösterimini yazınız.
+İlk olaeak diziyi 16, 21, 11 ve 8, 12, 22 olarak ikiye ayırırız.
+Daha sonra her iki grubu ayrı ayrı parçalara ayırırız.
+ilk olarak 16 ve 21, 11 ile 8 ve 12, 22 şeklinde.
+Daha sonra ise 16  21  11 ile 8  12  22 şeklinde.
+Tam olarak parçalara ayırdığımız seriyi tekrar sıralayarak birleştiriyoruz.
+İlk etapta ikili yapıyı sıralıyoruz: 16 ve 11, 21 ile 8 ve 12, 22
+İkinci olarak da üç sayıyı sıralı diziyoruz:11, 16, 21 ile 8, 12, 22
+Son olarak da her iki üçlü grubu sıralıyor ve işlemi bitiriyoruz: [16,21,11,8,12,22]
+Big-O gösterimi ise: n log (n)'den: 6 log (n) olur.
